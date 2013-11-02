@@ -25,7 +25,7 @@ public class BaseController {
 	public String welcomeName(@PathVariable String name, ModelMap model) {
 
 		model.addAttribute("message", "Maven Web Project + Spring 3 MVC - "
-				+ name);
+				+ name + "!");
 		return "index";
 
 	}
